@@ -23,7 +23,7 @@ p {
 
 .hero {
   text-align: center;
-  background-color: var(--secondary-color)
+  background-color: bisque;
   padding: 160px 20px;
 }
 
