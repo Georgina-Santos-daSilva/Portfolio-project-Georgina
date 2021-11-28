@@ -1,0 +1,47 @@
+:root {
+  --branding-color: rgb(158, 112, 43);
+  --heading-font-family: "Playfair Display", serif;
+  --defaut-font-family: "Poppings", sans-serif;
+  --secondary-color :bisque;
+}
+
+h1,
+h2,
+h3 {
+  color: black;
+  font-family: var(--heading-font-family)
+  font-weight: bold;
+}
+h1 {
+  font-size: 56px;
+}
+
+p {
+  font-family: var(--defaut-font-family)
+  font-weight: normal;
+}
+
+.hero {
+  text-align: center;
+  background-color: var(--secondary-color)
+  padding: 160px 20px;
+}
+
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.hero h2 {
+  font-family: "Poppings" sans-serif;
+  font-size: 24px;
+  color: rgb(51, 50, 50);
+}
+.btn-branding {
+  background-color: var(--branding-color);
+  border-radius: 4px;
+  color: blanchedalmond;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
