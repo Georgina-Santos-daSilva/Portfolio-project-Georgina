@@ -5,6 +5,10 @@
   --secondary-color :bisque;
 }
 
+body {
+  font-family: var(--default-font-family);
+}
+
 h1,
 h2,
 h3 {
@@ -13,7 +17,7 @@ h3 {
   font-weight: bold;
 }
 h1 {
-  font-size: 84px;
+  font-size: 96px;
    line-height: 1.5;
 }
 h2 {
@@ -70,6 +74,8 @@ p {
 .hero h2 {
   font-family: "Poppings" sans-serif;
   font-size: 24px;
+  font-weight: normal;
+  line-height: 1.5;
   color: rgb(51, 50, 50);
 }
 .btn-branding {
