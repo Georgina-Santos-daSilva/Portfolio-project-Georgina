@@ -13,7 +13,7 @@ h3 {
   font-weight: bold;
 }
 h1 {
-  font-size: 56px;
+  font-size: 84px;
    line-height: 1.5;
 }
 h2 {
@@ -166,6 +166,10 @@ nav a:hover, nav li.active a {
   .project-desciption {
     padding: 0;
     text-align: center;
+  }
+
+  .small-text{
+    font-size: 20px;
   }
 
   nav a{
