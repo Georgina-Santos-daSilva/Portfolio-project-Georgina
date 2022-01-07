@@ -132,8 +132,10 @@ p {
 .small-logo-footer{
    max-width: 50px;
   border-radius: 10px;
-  text-align: center;
+  text-align: center;}
   
+.contact{
+  color: var(--branding-color);
 }
 nav{
   padding: 20px 0;
