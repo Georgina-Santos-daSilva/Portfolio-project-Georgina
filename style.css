@@ -146,6 +146,11 @@ p {
   
 .contact{
   color: var(--branding-color);
+ 
+}
+.contact:hover{
+  text-decoration: none;
+  color: #3d1f06;
 }
 nav{
   padding: 20px 0;
